@@ -20,7 +20,7 @@ namespace DiscordBot
             _client = new DiscordClient();
             DateTime start = new DateTime();
             start = DateTime.Now;
-            Console.WriteLine("BOTmoderator online!");
+            Console.WriteLine("BOTmoderator!");
 
             //Add command service
             _client.UsingCommands(x => {
