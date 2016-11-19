@@ -88,7 +88,7 @@ namespace DiscordBot
             };
 
             _client.ExecuteAndWait(async () => {
-                await _client.Connect("MjIyODI0MTAyNzY1OTIwMjU4.CrDApw.8I3JZH5avaJosOk0vTCngAUo8Ao");
+                await _client.Connect("MjIyODI0MTAyNzY1OTIwMjU4.CxFZaA.idGgHMrPTgyRco37PDDSVlzPDR0", TokenType.Bot);
                 _client.SetGame("!help for help", GameType.Twitch, "http://google.ca");
             });
 
